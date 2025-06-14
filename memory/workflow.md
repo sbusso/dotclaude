@@ -52,4 +52,18 @@ ccsync                       # sync workspace
 ccpush                       # push improvements
 ```
 
+## Available MCPs
+
+### Model Context Protocol Servers
+- **Context7**: Add `use context7` for up-to-date documentation
+- **Playwright**: Browser automation and UI testing
+- **GitHub**: Enhanced repository and project management  
+- **Zen**: Multi-model AI collaboration - `use zen` for collaborative thinking, code review, debugging
+
+### Zen MCP Usage Examples
+- `use zen and gemini` - Leverage Gemini for specific analysis
+- `use zen for code review` - Multi-model code review collaboration
+- `use zen for debugging` - Collaborative debugging with multiple AI models
+- `use zen for deep reasoning` - Complex problem-solving with model orchestration
+
 This workflow framework is synchronized from the dotclaude repository and provides consistent project automation across all Claude Code projects.

@@ -5,7 +5,8 @@
     "Fetch": true,
     "mcp__context7": true,
     "mcp__playwright": true,
-    "mcp__github": true
+    "mcp__github": true,
+    "mcp__zen": true
   },
   "mcpServers": {
     "context7": {
@@ -21,6 +22,15 @@
       "args": ["-y", "@modelcontextprotocol/server-github"],
       "env": {
         "GITHUB_PERSONAL_ACCESS_TOKEN": ""
+      }
+    },
+    "zen": {
+      "command": "npx",
+      "args": ["-y", "zen-mcp-server"],
+      "env": {
+        "OPENROUTER_API_KEY": "",
+        "GEMINI_API_KEY": "",
+        "OPENAI_API_KEY": ""
       }
     }
   },
